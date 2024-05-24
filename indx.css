@@ -1,0 +1,86 @@
+.kalam {
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 250px;
+    user-select: none;
+    /* border: 1px solid black; */
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: kalam;
+    font-size: 20px;
+}
+
+img{
+    width: 200px;
+    margin-top: 50px;
+}
+
+input{
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    font-family: kalam;
+    font-size: 20px;
+    background-color: #ced4da;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: #ced4da;
+}
+
+input:hover{
+    background-color: #adb5bd;
+    border-color: #adb5bd;
+    cursor: pointer;
+}
+
+button{
+    width: 200px;
+    font-family: kalam;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #f4a261;
+    border-color: #f4a261;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: #e76f51;
+    border-color: #e76f51;
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    padding: 0;
+}
+
+ul li{
+    list-style-type: none;
+    border-radius: 10px;
+    background-color: #fefae0;
+    flex-grow: 1;
+    padding: 10px;
+    text-align: center;
+    color: #f4a261;
+    cursor: pointer;
+}
+
+ul li:hover{
+    background-color: #faedcd;
+}
+
